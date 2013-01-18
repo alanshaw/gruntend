@@ -1,7 +1,7 @@
-gruntend
+GRUNTEND
 ========
 
-Boilerplate for frontend development using HTML5 Boilerplate, mobile first styles, CoffeeScript and LESS. Built using [Grunt](http://gruntjs.com/).
+Boilerplate for frontend development using [HTML5 Boilerplate](http://html5boilerplate.com/), mobile first styles, [CoffeeScript](http://coffeescript.org/) and [LESS](http://lesscss.org/). Built using [Grunt](http://gruntjs.com/).
 
 
 Getting Started
