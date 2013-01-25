@@ -33,7 +33,7 @@ Project build settings are configured in the usual `grunt.js` file.
 HTML5 Boilerplate diff
 ----------------------
 
-- `main.css` is renamed -> `base.less`. Your base styles for all screen widths greater than 0px go in base.less
+- `main.css` is renamed -> `base.less`. Your base styles for all screen widths greater than 0px go in `base.less`
 - `normalize.css` renamed -> `normalize.less` to allow it to be imported inline into the compiled stylesheet
 - There are extra stylesheets in for different screen widths `320.less`, `768.less` and `960.less`. Styles for screen width of 320px and above go in `320.less`, Styles for screen width of 768px and above go in `768.less` etc. There is also a `main.less` and `ie.less` stylesheet. `main.less` imports your stylesheets wrapped in the relevant @media query blocks. `ie.less` does the same, but doesn't use media queries.
 - `index.html` includes the concatinated and minified CSS stylesheet (which includes normalise.css). lt-ie8 gets the `ie.less` stylesheet instead
@@ -42,6 +42,10 @@ HTML5 Boilerplate diff
 
 Changelog
 ---------
+
+### 0.1.0
+
+- Updated to HTML5 Boilerplate v4.1.0
 
 ### 0.0.1
 
