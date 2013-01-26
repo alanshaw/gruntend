@@ -49,6 +49,7 @@ Changelog
 - Updated to HTML5 Boilerplate v4.1.0
 - Added package.json
 - Added LICENCE
+- Fixed issue where modernizr & jquery were not copied to output folder
 
 ### 0.0.1
 
