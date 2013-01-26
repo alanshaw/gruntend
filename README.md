@@ -15,7 +15,8 @@ Install grunt:
 
 Install plugins:
 
-	npm install grunt-contrib
+	cd /path/to/gruntend
+	npm install
 
 Build the site:
 
@@ -46,6 +47,8 @@ Changelog
 ### 0.1.0
 
 - Updated to HTML5 Boilerplate v4.1.0
+- Added package.json
+- Added LICENCE
 
 ### 0.0.1
 

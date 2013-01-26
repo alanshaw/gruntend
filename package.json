@@ -1,0 +1,30 @@
+{
+  "name": "gruntend",
+  "version": "0.1.0",
+  "description": "Boilerplate for frontend development using HTML5 Boilerplate, mobile first styles, CoffeeScript and LESS. Built using Grunt.",
+  "main": "grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanshaw/gruntend.git"
+  },
+  "keywords": [
+    "HTML5",
+    "Boilerplate",
+    "LESS",
+    "CoffeeScript",
+    "Mobile"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/alanshaw/gruntend/blob/master/LICENCE"
+  }],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "grunt-contrib": "~0.3.0"
+  }
+}
