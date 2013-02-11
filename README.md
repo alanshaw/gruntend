@@ -1,4 +1,4 @@
-GRUNTEND
+GRUNTEND [![Dependency Status](https://david-dm.org/alanshaw/gruntend.png)](https://david-dm.org/alanshaw/gruntend)
 ========
 
 Boilerplate for frontend development using [HTML5 Boilerplate](http://html5boilerplate.com/), mobile first styles, [CoffeeScript](http://coffeescript.org/) and [LESS](http://lesscss.org/). Built using [Grunt](http://gruntjs.com/).
