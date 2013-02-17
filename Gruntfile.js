@@ -5,27 +5,23 @@ module.exports = function(grunt) {
 		// Copy files that don't need compilation to dist/
 		copy: {
 			dist: {
-				files: {
+				files: [
 					// Copy all (non hidden) files (not directories) from src
-					'dist/': 'src/*',
+					{dest: 'dist/', src: '*', filter: 'isFile', expand: true, cwd: 'src/'},
 					
 					// Copy the following hidden files
-					'dist/.htaccess': 'src/.htaccess',
+					{dest: 'dist/.htaccess', src: 'src/.htaccess'},
 					
 					// Copy any JavaScript files (not CoffeeScript src)
-					'dist/js/': 'src/js/**/*.js',
-					
-					// For the time being, you'll have to uncomment parts of this when you add files to folders that 
-					// currently have nothing in them!
-					// @see https://github.com/gruntjs/grunt-contrib-copy/issues/6
+					{dest: 'dist/', src: 'js/**/*.js', expand: true, cwd: 'src/'},
 					
 					// Copy any CSS files (not LESS src)
-					//'dist/css/': 'src/css/**/*.css',
+					{dest: 'dist/', src: 'css/**/*.css', expand: true, cwd: 'src/'},
 					
 					// Copy other resources
-					//'dist/img/': 'src/img/**',
-					//'dist/font/': 'src/font/**'
-				}
+					{dest: 'dist/', src: 'img/**', expand: true, cwd: 'src/'},
+					{dest: 'dist/', src: 'font/**', expand: true, cwd: 'src/'}
+				]
 			}
 		},
 		
@@ -49,7 +45,7 @@ module.exports = function(grunt) {
 		},
 		
 		// Minify the site script
-		min: {
+		uglify: {
 			compress: {
 				src: 'dist/js/main.js',
 				dest: 'dist/js/main.js'
@@ -70,13 +66,18 @@ module.exports = function(grunt) {
 		watch: {
 			project: {
 				files: ['src/js/**/*.coffee', 'src/css/**/*.less', 'src/**/*.html'],
-				tasks: 'copy less coffee'
+				tasks: ['copy', 'less', 'coffee']
 			}
 		}
 	});
 	
 	// Load the grunt-conrtib plugin so we can compile and compress CoffeeScript and LESS files
-	grunt.loadNpmTasks('grunt-contrib');
+	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-coffee');
+	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-mincss');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	
-	grunt.registerTask('default', 'copy coffee less min mincss');
+	grunt.registerTask('default', ['copy', 'coffee', 'less', 'uglify', 'mincss']);
 };

@@ -11,9 +11,11 @@ Install [Node.js](http://nodejs.org/)
 
 Install grunt:
 
-	npm install -g grunt
+	npm install -g grunt-cli
 
-Install plugins:
+_Note: as of version 0.2.0 GRUNTEND requires grunt 0.4. Install version 0.1.0 for grunt 0.3 support._
+
+Install dependencies:
 
 	cd /path/to/gruntend
 	npm install
@@ -28,7 +30,7 @@ Grunt can watch the project and compile LESS and coffeescript when you make chan
 
 	grunt watch
 
-Project build settings are configured in the usual `grunt.js` file.
+Project build settings are configured in the usual `Gruntfile.js`.
 
 
 HTML5 Boilerplate diff
@@ -43,6 +45,10 @@ HTML5 Boilerplate diff
 
 Changelog
 ---------
+
+### 0.2.0
+
+- Grunt 0.4 support
 
 ### 0.1.0
 
