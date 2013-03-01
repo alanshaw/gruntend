@@ -1,0 +1,23 @@
+v0.3.0:
+  date: 2013-03-01
+  changes:
+    - Updated to grunt-contrib-watch v0.3.1
+    - Watch task now watches image directory as well
+    - Added CHANGELOG file
+    - Altered formatting in README of release history section
+v0.2.0:
+  date: 2013-02-18
+  changes:
+    - Grunt 0.4 support
+v0.1.0:
+  date: 2013-01-26
+  changes:
+    - Updated to HTML5 Boilerplate v4.1.0
+    - Added package.json
+    - Added LICENCE
+    - Fixed issue where modernizr & jquery were not copied to output folder
+v0.0.1:
+  date: 2013-01-18
+  changes:
+    - Brand new
+    - Using HTML5 Boilerplate v4.0.3 

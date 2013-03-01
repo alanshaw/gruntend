@@ -9,11 +9,9 @@ Getting Started
 
 Install [Node.js](http://nodejs.org/)
 
-Install grunt:
+Install Grunt:
 
-	npm install -g grunt-cli
-
-_Note: as of version 0.2.0 GRUNTEND requires grunt 0.4. Install version 0.1.0 for grunt 0.3 support._
+	npm install -g grunt-cli 
 
 Install dependencies:
 
@@ -43,21 +41,10 @@ HTML5 Boilerplate diff
 - `main.js` renamed -> `main.coffee`
 
 
-Changelog
----------
+Release History
+---------------
 
-### 0.2.0
-
-- Grunt 0.4 support
-
-### 0.1.0
-
-- Updated to HTML5 Boilerplate v4.1.0
-- Added package.json
-- Added LICENCE
-- Fixed issue where modernizr & jquery were not copied to output folder
-
-### 0.0.1
-
-- Brand new
-- Using HTML5 Boilerplate v4.0.3 
+ * 2013-03-01   v0.3.0   Updated to grunt-contrib-watch v0.3.1. Watch task now watches image directory as well. Added CHANGELOG file.
+ * 2013-02-18   v0.2.0   Grunt 0.4 support
+ * 2013-01-26   v0.1.0   Updated to HTML5 Boilerplate v4.1.0 and fixed issue where modernizr & jquery were not copied to output folder.
+ * 2013-01-18   v0.0.1   Brand new!

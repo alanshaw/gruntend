@@ -1,6 +1,6 @@
 {
   "name": "gruntend",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Boilerplate for frontend development using HTML5 Boilerplate, mobile first styles, CoffeeScript and LESS. Built using Grunt.",
   "main": "Gruntfile.js",
   "scripts": {
@@ -30,6 +30,6 @@
     "grunt-contrib-less": "~0.5.0",
     "grunt-contrib-uglify": "~0.1.1",
     "grunt-contrib-mincss": "~0.4.0",
-    "grunt-contrib-watch": "~0.2.0"
+    "grunt-contrib-watch": "~0.3.1"
   }
 }
