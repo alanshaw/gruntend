@@ -44,8 +44,9 @@ HTML5 Boilerplate diff
 Release History
 ---------------
 
- * 2013-03-07   v0.4.0   Updated to grunt-contrib-coffee v0.6.0
- * 2013-03-01   v0.3.0   Updated to grunt-contrib-watch v0.3.1. Watch task now watches image directory as well. Added CHANGELOG file.
- * 2013-02-18   v0.2.0   Grunt 0.4 support
- * 2013-01-26   v0.1.0   Updated to HTML5 Boilerplate v4.1.0 and fixed issue where modernizr & jquery were not copied to output folder.
- * 2013-01-18   v0.0.1   Brand new!
+ * 2013-04-29   v0.5.0   Updated to HTML5 Boilerplate@4.2.0, grunt-contrib-coffee@0.7.0 grunt-contrib-uglify@0.2.0. Added clean task.
+ * 2013-03-07   v0.4.0   Updated to grunt-contrib-coffee v0.6.0
+ * 2013-03-01   v0.3.0   Updated to grunt-contrib-watch v0.3.1. Watch task now watches image directory as well. Added CHANGELOG file.
+ * 2013-02-18   v0.2.0   Grunt 0.4 support
+ * 2013-01-26   v0.1.0   Updated to HTML5 Boilerplate v4.1.0 and fixed issue where modernizr & jquery were not copied to output folder.
+ * 2013-01-18   v0.0.1   Brand new!

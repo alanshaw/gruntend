@@ -68,6 +68,10 @@ module.exports = function(grunt) {
 				files: ['src/js/**/*.coffee', 'src/css/**/*.less', 'src/**/*.html', 'src/img/**/*'],
 				tasks: ['copy', 'less', 'coffee']
 			}
+		},
+		
+		clean: {
+			dist: 'dist/*'
 		}
 	});
 	
@@ -78,6 +82,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-mincss');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-clean');
 	
 	grunt.registerTask('default', ['copy', 'coffee', 'less', 'uglify', 'mincss']);
 };
