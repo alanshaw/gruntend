@@ -1,3 +1,15 @@
+v0.5.1:
+  date: 2013-05-23
+  changes:
+    - Uses grunt-contrib-cssmin instead of grunt-contrib-mincss
+    - Updated to grunt-contrib-watch@0.4.3
+v0.5.0:
+  date: 2013-04-29
+  changes:
+    - Updated to HTML5 Boilerplate@4.2.0
+    - Updated to grunt-contrib-coffee@0.7.0
+    - Updated to grunt-contrib-uglify@0.2.0
+    - Added clean task
 v0.4.0:
   date: 2013-03-07
   changes:

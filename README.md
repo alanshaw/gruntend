@@ -44,6 +44,7 @@ HTML5 Boilerplate diff
 Release History
 ---------------
 
+ * 2013-05-23   v0.5.1   Uses grunt-contrib-cssmin instead of grunt-contrib-mincss, updated to grunt-contrib-watch@0.4.3.
  * 2013-04-29   v0.5.0   Updated to HTML5 Boilerplate@4.2.0, grunt-contrib-coffee@0.7.0 grunt-contrib-uglify@0.2.0. Added clean task.
  * 2013-03-07   v0.4.0   Updated to grunt-contrib-coffee v0.6.0
  * 2013-03-01   v0.3.0   Updated to grunt-contrib-watch v0.3.1. Watch task now watches image directory as well. Added CHANGELOG file.
